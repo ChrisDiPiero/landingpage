@@ -1,0 +1,39 @@
+:root {
+    --lightblue: #F6F9FC;
+    --red: #D64041;
+}
+
+a,
+a:hover {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-lightblue {
+    background: var(--lightblue);
+}
+
+.bg-red {
+    background: var(--red);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.container-fluid-max {
+    max-width: 1440px;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+C:\Users\frogm\Desktop\Training\GIT\landingpage
