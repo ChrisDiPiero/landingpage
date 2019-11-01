@@ -86,3 +86,25 @@ a:hover {
 .hero .container-fluid {
     z-index: 10;
 }
+
+/* other projects styles */
+.other-projects figure { /* add iframe too? */
+    margin-bottom: 30px;
+}
+
+.other-projects figcaption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.other-projects img { /* add iframe too? */
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+.other-projects a:hover img {
+    filter: none;
+}
