@@ -87,6 +87,11 @@ a:hover {
     z-index: 10;
 }
 
+/* weather styles */
+#weather {
+    display: none;
+}
+
 /* other projects styles */
 .other-projects figure { /* add iframe too? */
     margin-bottom: 30px;
