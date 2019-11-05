@@ -113,3 +113,9 @@ a:hover {
 .other-projects a:hover img {
     filter: none;
 }
+
+/* general styles */
+
+p {
+    font-size: 1.6rem;
+}

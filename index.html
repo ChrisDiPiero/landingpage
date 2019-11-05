@@ -61,17 +61,17 @@
             <section id="weather" class="weather bg-lightblue">
                 <div class="container-fluid container-fluid-max">
                     <div class="row">
-                        <div class="col-12 col-m-4">Weather</div>
-                        <div class="col-12 col-m-4"> in </div>
-                        <div class="col-12 col-m-4">San Antonio</div>
+                        <h2 class="col-12 text-center">Current Weather in San Antonio</h2>
                     </div>
                     <div class="row">
-                        <div class="col=12 col-m-6">Degrees Farenheit</div>
-                        <div class="col=12 col-m-6">Degrees Celsius</div>
-                    </div>
-                    <div class="row">
-                        <div id="degreesF" class="row"></div>
-                        <div id="degreesC" class="row"></div>
+                        <h4 class="col-12 col-md-3 text-center order-0">Farenheit</h4>
+                        <h4 class="col-12 col-md-3 text-center order-2 order-md-1">Celsius</h4>
+                        <h4 class="col-12 col-md-3 text-center order-4 order-md-2">Humidity</h4>
+                        <h4 class="col-12 col-md-3 text-center order-6 order-md-3">Wind</h4>
+                        <h5 id="degreesF" class="col-12 col-md-3 text-center order-1 order-md-4"></h5>
+                        <h5 id="degreesC" class="col-12 col-md-3 text-center order-3 order-md-5"></h5>
+                        <h5 id="humidity" class="col-12 col-md-3 text-center order-5 order-md-6"></h5>
+                        <h5 id="wind" class="col-12 col-md-3 text-center order-7 order-md-7"></h5>
                     </div>
                 </div>
             </section>
@@ -104,7 +104,7 @@
                 <div class="container-fluid container-fluid-max">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="pb-3 test-red">Other Projects</h2>
+                            <h2 class="pb-3 test-red"  data-toggle="tooltip" data-placement="top" title="under construction so it aint pretty">Other Projects</h2>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4"></div>
                         <div class="col-12 col-sm-6 col-md-4"></div>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="row">
                         <div class="col text-center">
-                            <a class="btn bg-red text-white" href="" role="button">MORE other projects...</a>
+                            <a class="btn bg-red text-white" href="" role="button" data-toggle="tooltip" data-placement="top" title="under construction so it aint pretty">MORE other projects...</a>
                         </div>
                     </div>
                 </div>
