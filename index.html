@@ -15,14 +15,20 @@
         <header class="fixed-top page-header">
             <div class="container-fluid container-fluid-max">
                 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="#home">CASA</a>
+                    <a class="navbar-brand" href="#home">HOME</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="">Link to further down</a>
+                                <a class="nav-link" href="#weather">Local Weather</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#featured-apps">Featured Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#other-projects">Other Projects</a>
                             </li>
                             <!--more li for the rest of the page sections-->
                         </ul>
@@ -44,8 +50,8 @@
                         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                             <h1 class="text-white">I can be found at...</h1>
                             <div class="mt-3">
-                                <a class="btn bg-red text-white mr-2" href="" role="button">...git</a><!-- link to github ...review-->
-                                <a class="btn bg-red text-white mr-2" href="" role="button">...LinkedIn</a><!-- link to LinkedIn ...review-->
+                                <a class="btn bg-red text-white mr-2" href="https://github.com/ChrisDiPiero" role="button">...git</a><!-- link to github ...review-->
+                                <a class="btn bg-red text-white mr-2" href="https://www.linkedin.com/in/christopherdipiero" role="button">...LinkedIn</a><!-- link to LinkedIn ...review-->
                             </div>
                         </div>
                     </div>
@@ -55,14 +61,24 @@
             <section id="weather" class="weather bg-lightblue">
                 <div class="container-fluid container-fluid-max">
                     <div class="row">
-                        <div
+                        <div class="col-12 col-m-4">Weather</div>
+                        <div class="col-12 col-m-4"> in </div>
+                        <div class="col-12 col-m-4">San Antonio</div>
+                    </div>
+                    <div class="row">
+                        <div class="col=12 col-m-6">Degrees Farenheit</div>
+                        <div class="col=12 col-m-6">Degrees Celsius</div>
+                    </div>
+                    <div class="row">
+                        <div id="degreesF" class="row"></div>
+                        <div id="degreesC" class="row"></div>
                     </div>
                 </div>
             </section>
             <!-- Featured apps -->
             <section id="featured-apps" class="featured-apps bg-lightblue">
                 <div class="row no-gutters">
-                    <div class="col-a2 col-md-6 d-flex align-items-center order-1 order-md-0">
+                    <div class="col-12 col-md-6 d-flex align-items-center order-1 order-md-0">
                         <div class="p-15">
                                 <p>
                                     This is a project I started just to illustrate an understanding of XML. Initially, 
@@ -76,7 +92,7 @@
                                 </p>
                             </div>
                     </div>
-                    <div class="col-a2 col-md-6 order-0 order-md-1">
+                    <div class="col-12 col-md-6 order-0 order-md-1">
                         <div class="embed-responsive embed-responsive-16by9 z-depth-2">                        
                             <iframe class="embed-responsive-item" src="https://chrisdipiero.github.io/XML-menu/"  style="height: 101%"></iframe>
                         </div>
@@ -124,5 +140,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="script/script.js"></script>
+        <script src="script/weather.js"></script>
     </body>
 </html>
