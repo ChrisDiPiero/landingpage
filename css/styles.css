@@ -1,6 +1,8 @@
 :root {
-    --lightblue: #F6F9FC;
-    --red: #D64041;
+    --offWhite: #FCFCFC;
+    --mainGray: #C4C4C4;
+    --medGray: #848484;
+    --darkGray: #242424;
 }
 
 a,
@@ -38,7 +40,7 @@ a:hover {
 
 /* header styles*/
 .scroll .page-header {
-    background: var(--red);
+    background: var(--darkGray);
 }
 
 .page-header {
@@ -55,7 +57,7 @@ a:hover {
 
 @media screen and (max-width: 991px) {
     .page-header {
-        background: var(--red);
+        background: var(--darkGray);
     }
 }
 
