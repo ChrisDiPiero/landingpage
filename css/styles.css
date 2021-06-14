@@ -94,7 +94,10 @@ a:hover {
     display: none;
 }
 
-/* other projects styles */
+/* projects styles */
+h3 {
+  text-align: center;
+}
 .other-projects figure { /* add iframe too? */
     margin-bottom: 30px;
 }
