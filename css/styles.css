@@ -14,16 +14,11 @@ a:hover {
     text-decoration: none;
 }
 
-.bg-lightblue {
-    background: var(--lightblue);
-}
-
-.bg-red {
-    background: var(--red);
-}
-
-.text-red {
-    color: var(--red);
+body {
+  background-image: url(../images/binarycircle_darkmode.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .container-fluid-max {
