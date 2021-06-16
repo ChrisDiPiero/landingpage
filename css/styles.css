@@ -62,8 +62,10 @@ body {
 }
 
 /* projects styles */
-h3 {
+.featured {
   text-align: center;
+  color:rgb(var(--offWhite));
+  font-size: 4rem;
 }
 
 iframe {
