@@ -1,8 +1,8 @@
 :root {
-    --offWhite: #FCFCFC;
-    --mainGray: #C4C4C4;
-    --medGray: #848484;
-    --darkGray: #242424;
+    --offWhite: 252, 252, 252;
+    --mainGray: 196, 196, 196;
+    --medGray: 132, 132, 132;
+    --darkGray: 36, 36, 36;
 }
 
 a,
@@ -35,7 +35,7 @@ body {
 
 /* header styles*/
 .scroll .page-header {
-    background: var(--darkGray);
+    background: rgb(var(--darkGray));
 }
 
 .page-header {
@@ -47,18 +47,18 @@ body {
 }
 
 .page-header .navbar-toggler {
-    border-color: var(--white);
+    border-color: rgb(var(--white));
 }
 
 @media screen and (max-width: 991px) {
     .page-header {
-        background: var(--darkGray);
+        background: rgb(var(--darkGray));
     }
 }
 
 /* weather styles */
 .weather {
-  background-color: var(--mainGray);
+  background-color: rgba(var(--mainGray), 0.8);
 }
 
 /* projects styles */
