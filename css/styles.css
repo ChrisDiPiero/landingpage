@@ -61,8 +61,8 @@ body {
   background-color: rgba(var(--mainGray), 0.8);
 }
 
-/* projects styles */
-.featured {
+/* projects and blog styles */
+.featured, .blog-head{
   text-align: center;
   color:rgb(var(--offWhite));
   font-size: 4rem;
@@ -70,6 +70,33 @@ body {
 
 iframe {
   pointer-events:none;
+}
+
+.featured-apps {
+  padding: 0 20px;
+}
+
+.work-item {
+  position: relative;
+}
+
+.work-item .work-item-text {
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  background-color: #fff;
+  padding: .5em;
+}
+
+.work-item:hover .work-item-text {
+  display: block;
+}
+
+/* Blog Styles */
+.blog-text {
+
 }
 
 /* general styles */
