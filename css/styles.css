@@ -34,6 +34,18 @@ body {
 }
 
 /* header styles*/
+.h1 {
+  font-size: 5rem;
+}
+
+.main-subtitle {
+  font-size: 3rem;
+}
+
+.main-sub-subtitle {
+  font-size: 2rem;
+}
+
 .scroll .page-header {
     background: rgb(var(--darkGray));
 }
@@ -92,12 +104,14 @@ iframe {
 
 .work-item:hover .work-item-text {
   display: block;
+  /* height: 80%;
+  width: 80%; */
 }
 
 /* Blog Styles */
-.blog-text {
+/* .blog-text {
 
-}
+} */
 
 /* general styles */
 
