@@ -104,8 +104,8 @@ iframe {
 
 .work-item:hover .work-item-text {
   display: block;
-  /* height: 80%;
-  width: 80%; */
+  height: 80%;
+  width: 80%;
 }
 
 /* Blog Styles */
