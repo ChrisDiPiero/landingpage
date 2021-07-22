@@ -90,6 +90,7 @@ iframe {
 
 .work-item {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .work-item .work-item-text {
@@ -100,12 +101,13 @@ iframe {
   right: 5%;
   background-color: #fff;
   padding: .5em;
+  border-radius: 1rem;
 }
 
 .work-item:hover .work-item-text {
   display: block;
   height: 80%;
-  width: 80%;
+  width: 90%;
 }
 
 /* Blog Styles */
